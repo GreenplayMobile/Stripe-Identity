@@ -66,6 +66,16 @@ In `android/app/main/src/res/values/styles.xml` add:
 <style>
 ```
 
+#### Android 16KB Page Size Support
+
+This plugin now includes support for Android devices with 16KB page sizes, which is required for future Android versions. The plugin includes:
+
+- Updated Stripe Android SDK (21.19.0) with improved 16KB page size compatibility
+- Gradle configuration optimized for 16KB page sizes
+- No additional setup required - the plugin is pre-configured for 16KB support
+
+For more information about Android 16KB page sizes, see the [Android Developer Documentation](https://developer.android.com/guide/practices/page-sizes).
+
 ## Usage
 
 ### Basic Implementation
@@ -118,6 +128,7 @@ Possible verification results:
 - iOS 13.0 or higher
 - Android API level 21 or higher
 - Flutter 3.0.0 or higher
+- **Android 16KB page size support**: This plugin now supports Android devices with 16KB page sizes (required for future Android versions)
 
 ## License
 

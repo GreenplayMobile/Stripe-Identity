@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.0.5
+
+Features:
+
+* Added support for Android 16KB page size devices
+* Updated Stripe Android SDK to 21.19.0 for better compatibility
+* Updated Android Gradle Plugin to 8.2.2
+* Updated Kotlin version to 1.9.22
+* Added gradle.properties configuration for 16KB page size support
+
 ## 1.0.4
 
 Fixes:
